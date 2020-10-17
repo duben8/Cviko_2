@@ -1,9 +1,15 @@
 .modry {
-    backround-color: blue;
+    background-color: blue;
+    width: 600px;
+    height: 600px;
 }
 .cerveny {
-    backround-color: red;
+    background-color: red;
+    width: 300px;
+    height: 300px;
 }
 .zeleny {
-    backround-color: green;
+    background-color: green;
+    width: 50px;
+    height: 50px;
 }
