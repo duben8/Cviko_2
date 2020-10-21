@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            display: inline-block;
+            background-color: bisque;
+            border: 1px solid red;
+
+        }
+        ul {
+            width: max-content;
+            margin: auto;
+        }
+        ul li ul {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            display: none;
+        }
+        ul li:hover ul {
+            display: block;
+        }
+        ul ul li {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+        <a href="#">Home</a>
+        <ul>
+            <li>Home1</li>
+            <li>Home2</li>
+            <li>Home3</li>
+
+        </ul>
+        <li><a href="#">Bio</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+        </li>
+
+    </ul>
+</body>
+</html>
